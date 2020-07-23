@@ -1,0 +1,36 @@
+// Copyright (c) Microsoft Corporation. All rights reserved.
+// Licensed under the MIT License. See License.txt in the project root for license information.
+
+export enum cdmObjectType {
+    error,
+    import,
+    argumentDef,
+    parameterDef,
+    traitDef,
+    traitRef,
+    purposeDef,
+    purposeRef,
+    dataTypeDef,
+    dataTypeRef,
+    attributeRef,
+    typeAttributeDef,
+    entityAttributeDef,
+    attributeGroupDef,
+    attributeGroupRef,
+    cdmCollection,
+    constantEntityDef,
+    entityDef,
+    entityRef,
+    documentDef,
+    manifestDef,
+    folderDef,
+    attributeContextDef,
+    attributeContextRef,
+    manifestDeclarationDef,
+    localEntityDeclarationDef,
+    referencedEntityDeclarationDef,
+    dataPartitionDef,
+    dataPartitionPatternDef,
+    attributeResolutionGuidanceDef,
+    e2eRelationshipDef
+}
